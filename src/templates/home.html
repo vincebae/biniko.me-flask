@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="{{url_for('static', filename='border.css')}}" />
-  </head>
-  <body>
-    <h1>Home Page</h1>
-    <p>Welcome to the homepage!</p>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}biniko.me{% endblock %}
+
+{% block content %}
+<h1>Home Page</h1>
+<p>Welcome to biniko.me</p>
+{% endblock %}
+
